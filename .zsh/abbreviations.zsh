@@ -7,16 +7,20 @@ typeset -A abbrevs
 
 # General aliases
 abbrevs=(
-  "cl"    "clear"
+  "cl"	"clear"
+  "rld"	"source ~/.zshrc"
 
   # Git
-  "ga"    "git add"
-  "gcm"   "git commit"
-  "gl"   "git log"
-  "gsh"   "git show"
-  "grb"   "git rebase"
-  "gmg"   "git merge"
-  "gp"    "git pull"
+  "ga"	"git add"
+  "gcm"	"git commit"
+  "gl"	"git log"
+  "gsh" "git show"
+  "grb" "git rebase"
+  "gmg" "git merge"
+  "gp"	"git pull"
+  "gst"	"git status"
+  "gb"	"git branch"
+  "gch" "git checkout"
 )
 
 # Add alias and autocompleteion for hub
